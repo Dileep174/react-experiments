@@ -1,10 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link,
   BrowserRouter,
   Routes
 } from "react-router-dom";
@@ -14,6 +12,7 @@ import Careers from './MyComponents/Careers';
 import Header from './MyComponents/Header';
 import Brands from './MyComponents/Brands';
 import SingleBrands from './MyComponents/SingleBrands';
+import Footer from './MyComponents/Footer';
 
 function App() {
   return (
@@ -27,6 +26,7 @@ function App() {
           <Route exact path="/Brands" element={<Brands />} />
           <Route exact path="/SingleBrands" element={<SingleBrands />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

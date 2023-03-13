@@ -1,0 +1,240 @@
+.container{
+    text-align: center;
+   }
+   .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: auto;
+}
+.hero {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -27px;
+}
+   p {
+    font-size: 18px;
+   }
+   .main-row {
+    margin: 100px 0px;
+   }
+   img{
+    max-width: unset;
+   }
+   .second-img{
+    background:none;
+    color: white;
+    height: 400px;
+    left: -200px;
+    margin: auto;
+    position: absolute;
+    width: 500rem;
+    max-width: 100rem;
+   }
+   .bg-img {
+        width: calc(((100% - 700px) / 2) + 857px); 
+        height: 482px;
+        margin: 34px 0 0 -222px;
+        background: white;
+        position: absolute;
+    }
+    .bg-gray{
+        background: rgb(224 229 235);
+    }
+   .circle {
+    width: 612px;
+    height: 612px;
+    border-radius: 300px;
+   }
+   .circle-img {
+    background: none;
+    max-width: 100%;
+    height: auto;
+   }
+   .middle {
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+    left: 50px;
+    background: none;                                                                                                   
+   }
+   .fitness {
+    width: 100%;
+   }
+   .card1{
+    background: rgb(216, 87, 87);
+   }
+   .card2{
+    background: rgb(218, 218, 218);
+    }
+    .card3{
+        background: rgb(152, 152, 152);
+    }
+    .cards .col-sm{
+        margin: 20px 20px 20px 0;
+        padding: 20px 40px;
+    }
+    .cards .col-sm h2{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    button {
+        background:  rgb(216, 87, 87);
+        border: none;
+        width: auto;
+        font-size: 20px;
+        margin: auto;
+        padding: 10px 30px;
+    }
+    .card4 {
+        background: white;
+        margin: 19px 20px;
+        padding: 20px 40px;
+        border: solid red 4px;
+        max-height: 450px;
+    }
+    .card4 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card4 p {
+       padding: 20px;
+    }
+    .card4 .btn{
+        border: solid red 4px;
+        background: none;
+        margin: 20px 5px;
+    }
+    .Member {
+        color: white;
+    }
+    .Member h2 {
+        margin: 30px 0px;
+    }
+    .third-card {
+        margin: 20px 20px;
+        border: solid red 4px;
+        max-height: 250px;
+        padding: 30px;
+    }
+    .weight-loss {
+        width: 100%;
+    }
+
+    .overlap {
+        margin-top: -130px;
+    }
+    .overlap .third-card{
+        background: white;
+        z-index: 999;
+    
+    }
+    .img-center{
+        width: 800px;
+        height: 800px;
+        border-radius: 400px;
+        margin-bottom: 150px;
+        margin-top: -80px;
+    }
+    .img-center1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+        margin-bottom: -100px;
+    }
+    .forth-card {
+        background: white;
+        margin: 40px 10px 80px 10px;
+        padding: 40px 20px; 
+        ; 
+    }
+    .fifth-card {
+        margin: 20px 20px;
+        border: solid red 4px;
+        max-height: 250px;
+        padding-top: 50px;
+    }
+    .img-center2{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        border: solid red 4px;
+        border-radius: 50px;
+    }
+    .text-light p {
+        margin-top: 200px;
+    }
+    .text-light button {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: white;
+    }
+
+    @media only screen and (max-width: 960px) and (min-width: 400px)  
+    {
+        .second-img {
+            background: none;
+            color: white;
+            height: 400px;
+            left: -200px;
+            margin: auto;
+            position: absolute;
+            width: 500rem;
+            max-width: 100rem;
+            width: -webkit-fill-available;
+        }
+
+        .overlap .img-center {
+            width: 100%;
+            height: auto;
+        
+        }
+        .circle {
+            width: 220px;
+            height: 220px;
+            border-radius: 300px;
+        }
+
+        .third-card {
+            margin: 20px 0px;
+            border: solid red 4px;
+            max-height: 250px;
+            padding: 30px;
+        }
+    }
+    @media only screen and (max-width: 400px)
+    {
+        .second-img {
+            background: none;
+            color: white;
+            height: 400px;
+            left: -200px;
+            margin: auto;
+            position: absolute;
+            width: 500rem;
+            max-width: 100rem;
+            width: -webkit-fill-available;
+        }
+
+        .overlap .img-center {
+            width: 100%;
+            height: auto;
+        }
+
+        .circle {
+            width: 220px;
+            height: 220px;
+            border-radius: 300px;
+        }
+        
+        .third-card {
+            margin: 20px 0px;
+            border: solid red 4px;
+            max-height: 250px;
+            padding: 30px;
+        }
+    }
