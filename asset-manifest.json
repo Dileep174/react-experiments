@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-experiments/static/css/main.6342e9ed.css",
+    "main.js": "/react-experiments/static/js/main.26a06b26.js",
+    "static/js/787.f237a53c.chunk.js": "/react-experiments/static/js/787.f237a53c.chunk.js",
+    "static/media/1.jpg": "/react-experiments/static/media/1.c9875a952acf819003c3.jpg",
+    "static/media/carousel-1.jpg": "/react-experiments/static/media/carousel-1.4cc3608b65a9ae72d619.jpg",
+    "index.html": "/react-experiments/index.html",
+    "main.6342e9ed.css.map": "/react-experiments/static/css/main.6342e9ed.css.map",
+    "main.26a06b26.js.map": "/react-experiments/static/js/main.26a06b26.js.map",
+    "787.f237a53c.chunk.js.map": "/react-experiments/static/js/787.f237a53c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6342e9ed.css",
+    "static/js/main.26a06b26.js"
+  ]
+}
